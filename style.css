@@ -11,6 +11,26 @@
   border-radius: 0px!important;
   min-height: 400px;
 }
+.jumbotron{
+  background-color: #24ae5f!important;
+}
+.mymb4{
+  color: #fff!important;
+  padding-top: 80px!important;
+}
+
+.mybtn{
+  background: #24ae5f!important;
+  border-color: #24ae5f!important;
+  cursor: pointer!important;
+}
+
+.mybtn:hover{
+  background: #f0c419!important;
+  border-color: #f0c419!important;
+  color: #24ae5f!important;
+
+}
 .jmtexmar{
   margin-top: 50px;
   font-weight: 700;
@@ -149,6 +169,139 @@ color: #000!important;
 .txclr{
   color: #434343!important;
 }
+
+.forslide{
+  box-shadow: 0 0 12px #aeabab;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.img-fluid{
+  border-radius: 5px;
+  transition: transform 1s;
+}
+.img-fluid:hover{
+  border-radius: 5px;
+  transform: scale(0.95);
+  cursor: pointer;
+}
+.mycntrlcss{
+  margin: 20px;
+}
+
+.sngdtl{
+  min-height: 300px
+}
+
+.marde{
+  margin-top: -210px!important;
+  max-height: 220px;
+}
+.mardee{
+  min-height: 200px;
+  max-width: 200px!important;
+  border-radius: 200px;
+  padding: 5px!important;
+}
+.fllf{
+  float: right!important;
+  margin-top: -135px;
+}
+.exbt{
+  font-size: 60px;
+}
+
+.sgmarde{
+  max-height: 160px;
+  box-shadow: 0 0 14px #d6d5d5;
+
+}
+.sgmardee{
+  min-height: 140px;
+  max-width: 140px!important;
+  border-radius: 200px;
+  padding: 5px!important;
+  transition: transform 1s;
+}
+.sgmardee:hover{
+  transform: scale(0.95);
+  transform: scale(0.90) rotate(45deg);
+  cursor: pointer;
+}
+
+.sgfllf{
+  float: right!important;
+  margin-top: -90px;
+}
+
+.sgexbt{
+  font-size: 30px;
+}
+
+
+.h4head{
+  margin-top: -25px;
+}
+.mardee {
+    -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+.nav-link{
+  color: #474747!important;
+  font-size: 18px;
+}
+.activa{
+  color: #22ad5f!important;
+}
+.forcss{
+  border-radius: 50px!important;
+}
+.forcssbtn{
+  border-radius: 5px!important;
+  padding: 8px 30px!important;
+  background-color: #22ad5f!important;
+  border-color: #22ad5f!important;
+  color: #fff!important;
+}
+
+@media (max-width: 992px) {
+  .marde{
+    margin-top: -70px!important;
+    max-height: 220px;
+    box-shadow: 0 0 14px #cbcbcb;
+  }
+  .mardee{
+    min-height: 150px;
+    max-width: 150px!important;
+    border-radius: 200px;
+    padding: 5px!important;
+  }
+  .fllf{
+    float: right!important;
+    margin-top:-100px!important;
+    margin-right: -150px;
+    display: inline;
+  }
+  .exbt{
+    font-size: 40px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
 
 
 /*for Currosel*/
