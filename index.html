@@ -46,7 +46,7 @@
 <!--Nav Bar End-->
 <!--Hero Banner Start-->
   <div class="">
-    <div class="jumbotron text-white jumbotron-image shadow " style="background-image: url(https://i.imgur.com/UctQEbe.png);">
+    <div class="jumbotron text-white jumbotron-image shadow " style="background-image: url(https://i.imgur.com/q1mJXum.png);">
       <h2 class="mb-4 jmtexmar">
         Let's Start Your <br>Day with MEESIK.
       </h2>
@@ -135,6 +135,17 @@
 </div>
 <!--Work Out Music Banner End-->
 
+<script>
+  $(document).ready(function() {
+    $("#myInput").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $(".col-lg-3").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+</script>
+<section class="my__Section__Fill">
 <div class="wrapper py-3">
   <div class="container">
     <div class="row">
@@ -237,6 +248,7 @@
       </div>
     </div>
   </div>
+</section>
 
 <div class="py-3 clrsec">
   <div class="col-lg-12">
