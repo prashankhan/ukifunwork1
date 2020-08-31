@@ -112,8 +112,12 @@
 }
 
 .my__Section__Fill{
-  background-color: #dbdbdb;
+  background-color: #e5e5e5;
   margin-top: 20px;
+}
+
+.my__Section__Fill__T{
+  background-color: #e5e5e5;
 }
 
 @keyframes slideInFromBottom {
